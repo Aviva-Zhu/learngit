@@ -20,3 +20,6 @@ HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历�
 
 ※(use "git checkout -- <file>..." to discard changes in working directory) 对文件做了修改之后使用该指令可以擦除修改
 
+git checkout -- file可以丢弃工作区的修改
+
+用命令git reset HEAD file可以把暂存区的修改撤销掉（unstage），重新放回工作区
